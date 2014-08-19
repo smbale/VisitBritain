@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">umushi</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_location">Get Current Location</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="no_data_found">No data found</string>
+    <string name="load_more">Load More</string>
+    <string name="place_address">Place Address</string>
+    <string name="place_name">Place Name</string>
+    <string name="places_types">Places Types</string>
+    <string name="none">None</string>
+    <string name="_0">0</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_10">10</string>
+    <string name="_8">8</string>
+    <string name="search_radius_5km">Search Radius: 5KM</string>
+    <string name="_6">6</string>
+    <string name="todo">TODO</string>
+    <string name="Map">Map</string>
+    <string name="List">List</string>
+
+</resources>

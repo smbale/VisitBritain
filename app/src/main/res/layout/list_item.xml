@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+     <TextView android:id="@+id/reference"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+     <TextView android:id="@+id/itemLat"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+      <TextView android:id="@+id/itemLong"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>  
+   
+	<!-- Place Name-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dip"
+        android:text="@string/place_name"
+        android:textColor="#040404"
+        android:typeface="sans" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+	<!-- Place Address -->
+    <TextView
+        android:id="@+id/address"
+        android:text="@string/place_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textColor="#343434"
+        android:textSize="14sp"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="75dip"/>
+	
+    <!-- Place rating -->
+	<RatingBar 
+	    android:layout_below="@id/address"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_marginTop="5dp"
+	    android:isIndicator="true"
+	    android:numStars="5"
+	    android:stepSize="1"
+	    android:rating="1"
+	    android:id="@+id/place_ratingbar"
+	    style="?android:attr/ratingBarStyleSmall"
+	/>    
+    
+	<!--  Distance -->
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/name"
+        android:gravity="end"
+        android:text=""
+        android:layout_marginEnd="8dip"
+        android:layout_marginTop="3dp"
+        android:textSize="12sp"
+        android:textColor="#585858"
+        android:textStyle="bold"/>
+      
+     <!-- direction btn -->    
+     <ImageView android:layout_width="wrap_content"
+        android:id="@+id/direction"
+        android:layout_marginEnd="10dip"
+         android:layout_marginTop="50dip"
+     	android:layout_height="wrap_content"
+     	android:src="@android:drawable/ic_menu_directions"
+     	android:layout_alignParentEnd="true"
+     	android:layout_centerVertical="true" android:contentDescription="@string/todo"/>
+
+</RelativeLayout>

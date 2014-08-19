@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/loadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff848dff"
+        android:paddingBottom="7dip"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        android:paddingTop="7dip"
+        android:text="@string/load_more"
+        android:textColor="#ccc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:theme="@android:style/Theme.Material.Light"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Theme.Material.Light"
+        android:autoText="true" />
+
+</RelativeLayout>
